@@ -6,6 +6,13 @@ bot = commands.Bot(command_prefix='&')
 suck_enabled = False
 suck_id = 0
 
+bot_token = ''
+
+#Get bot token from file
+f = open("bottoken.txt", "r")
+bot_token = f.readline()
+f.close
+
 @bot.event
 async def on_message(message):
     if(message.author.bot == False):       
@@ -24,4 +31,4 @@ async def suck(ctx, message):
     
 
 
-bot.run('NO')
+bot.run(bot_token)
