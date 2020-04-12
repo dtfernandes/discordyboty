@@ -24,4 +24,4 @@ async def suck(ctx, message):
     
 
 
-bot.run('Njk4NzE0NDkyODQ2MjExMTMy.XpJ2ww.drFonnMice4xO8vShhiNXdZ4mVU')
+bot.run('NO')
