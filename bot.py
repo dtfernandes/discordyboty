@@ -28,6 +28,11 @@ async def suck(ctx, message):
 
     suck_enabled = not suck_enabled
     suck_id = message[3:21]
+
+@bot.command()
+async def teste(ctx):
+
+    await ctx.send("Teste")
     
 
 
