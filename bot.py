@@ -34,6 +34,9 @@ async def teste(ctx):
 
     await ctx.send("Teste")
     
+@bot.command()
+async def teste(ctx):
 
+    await ctx.send('Olá')   
 
 bot.run(bot_token)
